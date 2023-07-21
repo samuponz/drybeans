@@ -24,3 +24,6 @@ Regarding attributes:
 
 
 # TODO:
+ - analisi dati
+ - analisi relazioni tra le feature
+ - analisi distribuzione istanze nelle classi
