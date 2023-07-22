@@ -12,6 +12,7 @@ Regarding attributes:
 
 # PRE-PROCESSING:
 - Missing values
+- Outliers (Boxplot?)
 - Undersampling or Oversampling
 - Class balancing
 - Class aggregation
