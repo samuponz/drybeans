@@ -41,3 +41,24 @@ It’s almost rare that all the variables in the dataset are useful for building
  - analisi dati
  - analisi relazioni tra le feature
  - analisi distribuzione istanze nelle classi
+
+## Scaletta
+# DATASET
+- Introduzione
+# OUTLIERS REMOVAL
+- SVM
+# FEATURE SELECTION
+- Correlation
+- K-Best
+- Random Forest
+# FEATURE EXTRACTION
+- PCA
+# CLASSIFICATION
+- Random Forest
+- SVM
+- Neural Network
+# SCORE
+- Accuracy, precision, ...
+- Kappa
+- +++
+
