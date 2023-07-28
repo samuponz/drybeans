@@ -10,7 +10,6 @@ Regarding attributes:
  - https://www.kaggle.com/datasets/sansuthi/dry-bean-dataset
 
 
-
 # PRE-PROCESSING:
 - Missing values
 - Outliers (Boxplot?)
