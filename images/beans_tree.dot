@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="ShapeFactor1 <= -0.019\nentropy = 2.806\nsamples = 16537\nvalue = [2441, 2447, 2402, 2187, 2452, 2416, 2192]\nclass = HOROZ", fillcolor="#ffffff"] ;
+1 [label="ShapeFactor1 <= -1.43\nentropy = 1.771\nsamples = 7227\nvalue = [2229, 2447, 2274, 0, 14, 261, 2]\nclass = BOMBAY", fillcolor="#fcfef8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Roundness <= -1.198\nentropy = 0.01\nsamples = 2449\nvalue = [2, 2447, 0, 0, 0, 0, 0]\nclass = BOMBAY", fillcolor="#b7e539"] ;
+1 -> 2 ;
+3 [label="entropy = 0.684\nsamples = 11\nvalue = [2, 9, 0, 0, 0, 0, 0]\nclass = BOMBAY", fillcolor="#c7eb65"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 2438\nvalue = [0, 2438, 0, 0, 0, 0, 0]\nclass = BOMBAY", fillcolor="#b7e539"] ;
+2 -> 4 ;
+5 [label="AspectRatio <= 0.02\nentropy = 1.282\nsamples = 4778\nvalue = [2227, 0, 2274, 0, 14, 261, 2]\nclass = CALI", fillcolor="#fbfffc"] ;
+1 -> 5 ;
+6 [label="entropy = 0.928\nsamples = 2033\nvalue = [1623, 0, 146, 0, 1, 261, 2]\nclass = BARBUNYA", fillcolor="#eb9e67"] ;
+5 -> 6 ;
+7 [label="entropy = 0.802\nsamples = 2745\nvalue = [604, 0, 2128, 0, 13, 0, 0]\nclass = CALI", fillcolor="#72ec80"] ;
+5 -> 7 ;
+8 [label="AspectRatio <= 0.659\nentropy = 2.186\nsamples = 9310\nvalue = [212, 0, 128, 2187, 2438, 2155, 2190]\nclass = HOROZ", fillcolor="#f8f9fe"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="AspectRatio <= -1.024\nentropy = 1.838\nsamples = 6773\nvalue = [181, 0, 47, 2175, 75, 2155, 2140]\nclass = DERMASON", fillcolor="#feffff"] ;
+8 -> 9 ;
+10 [label="entropy = 0.343\nsamples = 2110\nvalue = [0, 0, 0, 116, 0, 1986, 8]\nclass = SEKER", fillcolor="#b645e7"] ;
+9 -> 10 ;
+11 [label="entropy = 1.555\nsamples = 4663\nvalue = [181, 0, 47, 2059, 75, 169, 2132]\nclass = SIRA", fillcolor="#fef9fc"] ;
+9 -> 11 ;
+12 [label="ShapeFactor1 <= 0.14\nentropy = 0.48\nsamples = 2537\nvalue = [31, 0, 81, 12, 2363, 0, 50]\nclass = HOROZ", fillcolor="#4762e7"] ;
+8 -> 12 ;
+13 [label="entropy = 1.491\nsamples = 109\nvalue = [24, 0, 55, 0, 30, 0, 0]\nclass = CALI", fillcolor="#c0f7c7"] ;
+12 -> 13 ;
+14 [label="entropy = 0.303\nsamples = 2428\nvalue = [7, 0, 26, 12, 2333, 0, 50]\nclass = HOROZ", fillcolor="#415de6"] ;
+12 -> 14 ;
+}
