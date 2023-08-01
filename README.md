@@ -13,5 +13,6 @@ The aim of the project was to apply some of the Machine Learning techniques pres
 _________________________________________________________________________________________________________________________________________________________
 
 
-[Image1](/project_report/report_imgs/shape4solid.pdf)
+![Image1](/project_report/report_imgs/solpershape3.png)
 *<div align="center">Distribution of the data in a 3D subspace of the feature space.</div>*                                                  
+
